@@ -7,18 +7,18 @@ public class Atividade_5 {
 	        Scanner scanner = new Scanner(System.in);
 	        
 	       
-	        int codigoProduto;
-	        int quantidade;
+	        
+	        
 	        double valorTotal = 0.0;
 	        String nomeProduto = "";
 
 	       
 	        System.out.print("Código do Produto: ");
-	        codigoProduto = scanner.nextInt();
+	       int codigoProduto = scanner.nextInt();
 
 	        
 	        System.out.print("Quantidade: ");
-	        quantidade = scanner.nextInt();
+	        int quantidade = scanner.nextInt();
 
 	        
 	        switch (codigoProduto) {
