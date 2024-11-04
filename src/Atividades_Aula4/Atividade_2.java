@@ -6,11 +6,13 @@ public class Atividade_2 {
 	
     public static void main(String[] args){
     	
-        Scanner scanner = new Scanner(System.in);
+        Scanner leia = new Scanner(System.in);
         
         
-        int[] vetor = new int[10];
-        int soma = 0;
+        
 
+        
+        
+        leia.close();
     }
 }
